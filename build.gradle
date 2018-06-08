@@ -41,6 +41,3 @@ dependencies {
 
 jar { archiveName = 'SmartInvs-' + project.version + '.jar' }
 
-signing {
-    sign configurations.archives
-}
